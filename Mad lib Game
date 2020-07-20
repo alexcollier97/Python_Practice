@@ -1,0 +1,7 @@
+sound = input("Enter a Sound")
+object = input("Enter a object")
+emoji = input("Enter a emoji")
+
+print("beep " + sound)
+print("I am a " + object)
+print("Raw " + emoji)
