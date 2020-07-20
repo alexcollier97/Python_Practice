@@ -1,0 +1,8 @@
+num1 = input("Enter a Number here: ")
+num2 = input("Enter a Second Number here: ")
+result = int(num1) + int(num2)
+
+print(result)
+
+
+// this can only handle whole numbers thanks the int() function this turns the input in to a whole number
