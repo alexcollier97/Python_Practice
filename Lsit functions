@@ -1,0 +1,26 @@
+Places = ["UK" , "USA" , "japan"]
+
+Games = ["league" , "pokemon" , "eso"]
+
+Games.append("Dark Souls") #this is how you add things to the end of a list
+
+Places.insert(1, "china") #this is how you pick where the new item on th list will go
+
+Games.remove("pokemon") # how to remove an item from a list
+
+Places.clear() #this is to clear the list
+
+Games.pop() #.pop() will remove an item from the list
+
+print(Games.index("eso")) #this will show you the index for a specifed item from the list
+
+print(Places)
+
+print(Games.count("league"))#this tell you how many time that item is in the list
+
+Places.sort()#this will sort you list in asending order
+
+Places.sort.reverse()#this will reverse the way the list will be printed
+
+Games2 = Games.copy()#this will let you make a copy of one var and copy to a second one
+
